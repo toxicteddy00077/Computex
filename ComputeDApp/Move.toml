@@ -1,0 +1,15 @@
+[package]
+name = "ComputeDApp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0x9299106a8aff61e5f001b96000cea5ecbc43bfb5f8e58988d32226e3e9d82961'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
